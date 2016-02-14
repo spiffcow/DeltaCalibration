@@ -67,7 +67,6 @@ namespace ProbeDataToCommands
             {
                 try
                 {
-                    var sb = new StringBuilder();
                     var list = new List<PointError>();
                     foreach (Match match in ParsingRegex.Matches(inputTextBox.Text))
                     {
@@ -77,7 +76,7 @@ namespace ProbeDataToCommands
                     double center;
                     if (list.Any(_ => _.X == 0 && _.Y == 0))
                     {
-                        center = list.Single(_ => _.X == 0 && _.Y == 0).ZError;
+                        center = list.First(_ => _.X == 0 && _.Y == 0).ZError;
                     }
                     else
                     {
@@ -93,12 +92,21 @@ namespace ProbeDataToCommands
                         center = nearest.Sum(_ => _.l.ZError * (_.dist / totalDist));
                     }
 
-                    var cleanList = list.Select(_ => new PointError(_.X, _.Y, _.ZError - center)).ToList();
-                    var lines =
-                        from item in cleanList
-                        select String.Format(@"G33 X{0:0.00} Y{1:0.00} Z{2:0.000}", item.X, item.Y, item.ZError);
-                    sb.AppendLine("G33 R0");
-                    outputTextBox.Text = "G33 R0\r\n" + String.Join("\r\n", lines);
+
+                    if (radioZCorrection.Checked)
+                    {
+                        var sb = new StringBuilder();
+                        var cleanList = list.Select(_ => new PointError(_.X, _.Y, _.ZError - center)).ToList();
+                        var lines =
+                            from item in cleanList
+                            select String.Format(@"G33 X{0:0.00} Y{1:0.00} Z{2:0.000}", item.X, item.Y, item.ZError);
+                        sb.AppendLine("G33 R0");
+                        outputTextBox.Text = "G33 R0\r\n" + String.Join("\r\n", lines);
+                    }
+                    else
+                    {
+                        outputTextBox.Text = String.Empty;
+                    }
 
                     double stepsPerMm = double.Parse(txtStepsPerMmInput.Text);
                     if (stepsPerMm == 0)

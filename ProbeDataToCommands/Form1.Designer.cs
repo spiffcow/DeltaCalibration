@@ -79,7 +79,7 @@
             // 
             this.inputTextBox.AcceptsReturn = true;
             this.inputTextBox.AllowDrop = true;
-            this.inputTextBox.Location = new System.Drawing.Point(414, 28);
+            this.inputTextBox.Location = new System.Drawing.Point(414, 45);
             this.inputTextBox.Multiline = true;
             this.inputTextBox.Name = "inputTextBox";
             this.inputTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -90,7 +90,7 @@
             // 
             this.outputTextBox.AcceptsReturn = true;
             this.outputTextBox.AllowDrop = true;
-            this.outputTextBox.Location = new System.Drawing.Point(414, 294);
+            this.outputTextBox.Location = new System.Drawing.Point(414, 311);
             this.outputTextBox.Multiline = true;
             this.outputTextBox.Name = "outputTextBox";
             this.outputTextBox.ReadOnly = true;
@@ -102,7 +102,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 116);
+            this.label1.Location = new System.Drawing.Point(12, 133);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 2;
@@ -111,7 +111,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 145);
+            this.label2.Location = new System.Drawing.Point(12, 162);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 13);
             this.label2.TabIndex = 3;
@@ -120,7 +120,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 175);
+            this.label3.Location = new System.Drawing.Point(12, 192);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 4;
@@ -129,7 +129,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 87);
+            this.label4.Location = new System.Drawing.Point(12, 104);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 7;
@@ -138,7 +138,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 57);
+            this.label5.Location = new System.Drawing.Point(12, 74);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 13);
             this.label5.TabIndex = 6;
@@ -147,7 +147,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 28);
+            this.label6.Location = new System.Drawing.Point(12, 45);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 13);
             this.label6.TabIndex = 5;
@@ -156,7 +156,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 263);
+            this.label7.Location = new System.Drawing.Point(12, 280);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(46, 13);
             this.label7.TabIndex = 10;
@@ -165,7 +165,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 233);
+            this.label8.Location = new System.Drawing.Point(12, 250);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(46, 13);
             this.label8.TabIndex = 9;
@@ -174,7 +174,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(12, 204);
+            this.label9.Location = new System.Drawing.Point(12, 221);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(46, 13);
             this.label9.TabIndex = 8;
@@ -183,7 +183,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(12, 294);
+            this.label10.Location = new System.Drawing.Point(12, 311);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(71, 13);
             this.label10.TabIndex = 11;
@@ -192,7 +192,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(12, 327);
+            this.label11.Location = new System.Drawing.Point(12, 344);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(62, 13);
             this.label11.TabIndex = 12;
@@ -200,7 +200,7 @@
             // 
             // txtArmLengthInput
             // 
-            this.txtArmLengthInput.Location = new System.Drawing.Point(79, 28);
+            this.txtArmLengthInput.Location = new System.Drawing.Point(79, 45);
             this.txtArmLengthInput.Name = "txtArmLengthInput";
             this.txtArmLengthInput.Size = new System.Drawing.Size(100, 20);
             this.txtArmLengthInput.TabIndex = 13;
@@ -208,7 +208,7 @@
             // 
             // txtRadiusInput
             // 
-            this.txtRadiusInput.Location = new System.Drawing.Point(79, 57);
+            this.txtRadiusInput.Location = new System.Drawing.Point(79, 74);
             this.txtRadiusInput.Name = "txtRadiusInput";
             this.txtRadiusInput.Size = new System.Drawing.Size(100, 20);
             this.txtRadiusInput.TabIndex = 14;
@@ -216,7 +216,7 @@
             // 
             // txtHeightInput
             // 
-            this.txtHeightInput.Location = new System.Drawing.Point(79, 87);
+            this.txtHeightInput.Location = new System.Drawing.Point(79, 104);
             this.txtHeightInput.Name = "txtHeightInput";
             this.txtHeightInput.Size = new System.Drawing.Size(100, 20);
             this.txtHeightInput.TabIndex = 15;
@@ -224,7 +224,7 @@
             // 
             // txtXEndstopInput
             // 
-            this.txtXEndstopInput.Location = new System.Drawing.Point(79, 116);
+            this.txtXEndstopInput.Location = new System.Drawing.Point(79, 133);
             this.txtXEndstopInput.Name = "txtXEndstopInput";
             this.txtXEndstopInput.Size = new System.Drawing.Size(100, 20);
             this.txtXEndstopInput.TabIndex = 16;
@@ -232,7 +232,7 @@
             // 
             // txtYEndstopInput
             // 
-            this.txtYEndstopInput.Location = new System.Drawing.Point(79, 145);
+            this.txtYEndstopInput.Location = new System.Drawing.Point(79, 162);
             this.txtYEndstopInput.Name = "txtYEndstopInput";
             this.txtYEndstopInput.Size = new System.Drawing.Size(100, 20);
             this.txtYEndstopInput.TabIndex = 17;
@@ -240,7 +240,7 @@
             // 
             // txtZEndstopInput
             // 
-            this.txtZEndstopInput.Location = new System.Drawing.Point(79, 175);
+            this.txtZEndstopInput.Location = new System.Drawing.Point(79, 192);
             this.txtZEndstopInput.Name = "txtZEndstopInput";
             this.txtZEndstopInput.Size = new System.Drawing.Size(100, 20);
             this.txtZEndstopInput.TabIndex = 18;
@@ -248,7 +248,7 @@
             // 
             // txtXadjustInput
             // 
-            this.txtXadjustInput.Location = new System.Drawing.Point(79, 204);
+            this.txtXadjustInput.Location = new System.Drawing.Point(79, 221);
             this.txtXadjustInput.Name = "txtXadjustInput";
             this.txtXadjustInput.Size = new System.Drawing.Size(100, 20);
             this.txtXadjustInput.TabIndex = 19;
@@ -256,7 +256,7 @@
             // 
             // txtYAdjustInput
             // 
-            this.txtYAdjustInput.Location = new System.Drawing.Point(79, 233);
+            this.txtYAdjustInput.Location = new System.Drawing.Point(79, 250);
             this.txtYAdjustInput.Name = "txtYAdjustInput";
             this.txtYAdjustInput.Size = new System.Drawing.Size(100, 20);
             this.txtYAdjustInput.TabIndex = 20;
@@ -264,7 +264,7 @@
             // 
             // txtZAdjustInput
             // 
-            this.txtZAdjustInput.Location = new System.Drawing.Point(79, 263);
+            this.txtZAdjustInput.Location = new System.Drawing.Point(79, 280);
             this.txtZAdjustInput.Name = "txtZAdjustInput";
             this.txtZAdjustInput.Size = new System.Drawing.Size(100, 20);
             this.txtZAdjustInput.TabIndex = 21;
@@ -272,7 +272,7 @@
             // 
             // txtStepsPerMmInput
             // 
-            this.txtStepsPerMmInput.Location = new System.Drawing.Point(79, 291);
+            this.txtStepsPerMmInput.Location = new System.Drawing.Point(79, 308);
             this.txtStepsPerMmInput.Name = "txtStepsPerMmInput";
             this.txtStepsPerMmInput.Size = new System.Drawing.Size(100, 20);
             this.txtStepsPerMmInput.TabIndex = 22;
@@ -280,7 +280,7 @@
             // 
             // txtBedRadiusInput
             // 
-            this.txtBedRadiusInput.Location = new System.Drawing.Point(79, 324);
+            this.txtBedRadiusInput.Location = new System.Drawing.Point(79, 341);
             this.txtBedRadiusInput.Name = "txtBedRadiusInput";
             this.txtBedRadiusInput.Size = new System.Drawing.Size(100, 20);
             this.txtBedRadiusInput.TabIndex = 23;
@@ -288,7 +288,7 @@
             // 
             // txtArmLengthOutput
             // 
-            this.txtArmLengthOutput.Location = new System.Drawing.Point(185, 28);
+            this.txtArmLengthOutput.Location = new System.Drawing.Point(185, 45);
             this.txtArmLengthOutput.Name = "txtArmLengthOutput";
             this.txtArmLengthOutput.ReadOnly = true;
             this.txtArmLengthOutput.Size = new System.Drawing.Size(100, 20);
@@ -296,7 +296,7 @@
             // 
             // txtRadiusOutput
             // 
-            this.txtRadiusOutput.Location = new System.Drawing.Point(185, 57);
+            this.txtRadiusOutput.Location = new System.Drawing.Point(185, 74);
             this.txtRadiusOutput.Name = "txtRadiusOutput";
             this.txtRadiusOutput.ReadOnly = true;
             this.txtRadiusOutput.Size = new System.Drawing.Size(100, 20);
@@ -304,7 +304,7 @@
             // 
             // txtHeightOutput
             // 
-            this.txtHeightOutput.Location = new System.Drawing.Point(185, 87);
+            this.txtHeightOutput.Location = new System.Drawing.Point(185, 104);
             this.txtHeightOutput.Name = "txtHeightOutput";
             this.txtHeightOutput.ReadOnly = true;
             this.txtHeightOutput.Size = new System.Drawing.Size(100, 20);
@@ -312,7 +312,7 @@
             // 
             // txtXEndstopOutput
             // 
-            this.txtXEndstopOutput.Location = new System.Drawing.Point(185, 116);
+            this.txtXEndstopOutput.Location = new System.Drawing.Point(185, 133);
             this.txtXEndstopOutput.Name = "txtXEndstopOutput";
             this.txtXEndstopOutput.ReadOnly = true;
             this.txtXEndstopOutput.Size = new System.Drawing.Size(100, 20);
@@ -320,7 +320,7 @@
             // 
             // txtYEndstopOutput
             // 
-            this.txtYEndstopOutput.Location = new System.Drawing.Point(185, 145);
+            this.txtYEndstopOutput.Location = new System.Drawing.Point(185, 162);
             this.txtYEndstopOutput.Name = "txtYEndstopOutput";
             this.txtYEndstopOutput.ReadOnly = true;
             this.txtYEndstopOutput.Size = new System.Drawing.Size(100, 20);
@@ -328,7 +328,7 @@
             // 
             // txtZEndstopOutput
             // 
-            this.txtZEndstopOutput.Location = new System.Drawing.Point(185, 175);
+            this.txtZEndstopOutput.Location = new System.Drawing.Point(185, 192);
             this.txtZEndstopOutput.Name = "txtZEndstopOutput";
             this.txtZEndstopOutput.ReadOnly = true;
             this.txtZEndstopOutput.Size = new System.Drawing.Size(100, 20);
@@ -336,7 +336,7 @@
             // 
             // txtXadjustOutput
             // 
-            this.txtXadjustOutput.Location = new System.Drawing.Point(185, 204);
+            this.txtXadjustOutput.Location = new System.Drawing.Point(185, 221);
             this.txtXadjustOutput.Name = "txtXadjustOutput";
             this.txtXadjustOutput.ReadOnly = true;
             this.txtXadjustOutput.Size = new System.Drawing.Size(100, 20);
@@ -344,7 +344,7 @@
             // 
             // txtYAdjustOutput
             // 
-            this.txtYAdjustOutput.Location = new System.Drawing.Point(185, 233);
+            this.txtYAdjustOutput.Location = new System.Drawing.Point(185, 250);
             this.txtYAdjustOutput.Name = "txtYAdjustOutput";
             this.txtYAdjustOutput.ReadOnly = true;
             this.txtYAdjustOutput.Size = new System.Drawing.Size(100, 20);
@@ -352,7 +352,7 @@
             // 
             // txtZAdjustOutput
             // 
-            this.txtZAdjustOutput.Location = new System.Drawing.Point(185, 263);
+            this.txtZAdjustOutput.Location = new System.Drawing.Point(185, 280);
             this.txtZAdjustOutput.Name = "txtZAdjustOutput";
             this.txtZAdjustOutput.ReadOnly = true;
             this.txtZAdjustOutput.Size = new System.Drawing.Size(100, 20);
@@ -360,7 +360,7 @@
             // 
             // CopyOutputValuesToInput
             // 
-            this.CopyOutputValuesToInput.Location = new System.Drawing.Point(155, 521);
+            this.CopyOutputValuesToInput.Location = new System.Drawing.Point(155, 538);
             this.CopyOutputValuesToInput.Name = "CopyOutputValuesToInput";
             this.CopyOutputValuesToInput.Size = new System.Drawing.Size(129, 23);
             this.CopyOutputValuesToInput.TabIndex = 33;
@@ -371,7 +371,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(12, 355);
+            this.label12.Location = new System.Drawing.Point(12, 372);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(29, 13);
             this.label12.TabIndex = 34;
@@ -379,7 +379,7 @@
             // 
             // txtInitialError
             // 
-            this.txtInitialError.Location = new System.Drawing.Point(79, 355);
+            this.txtInitialError.Location = new System.Drawing.Point(79, 372);
             this.txtInitialError.Name = "txtInitialError";
             this.txtInitialError.ReadOnly = true;
             this.txtInitialError.Size = new System.Drawing.Size(100, 20);
@@ -387,7 +387,7 @@
             // 
             // txtAdjustedError
             // 
-            this.txtAdjustedError.Location = new System.Drawing.Point(185, 355);
+            this.txtAdjustedError.Location = new System.Drawing.Point(185, 372);
             this.txtAdjustedError.Name = "txtAdjustedError";
             this.txtAdjustedError.ReadOnly = true;
             this.txtAdjustedError.Size = new System.Drawing.Size(100, 20);
@@ -397,7 +397,7 @@
             // 
             this.radioGroupParsingType.Controls.Add(this.radioZProbe);
             this.radioGroupParsingType.Controls.Add(this.radioZCorrection);
-            this.radioGroupParsingType.Location = new System.Drawing.Point(15, 395);
+            this.radioGroupParsingType.Location = new System.Drawing.Point(15, 412);
             this.radioGroupParsingType.Name = "radioGroupParsingType";
             this.radioGroupParsingType.Size = new System.Drawing.Size(269, 73);
             this.radioGroupParsingType.TabIndex = 37;
@@ -428,7 +428,7 @@
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(6, 521);
+            this.btnCalculate.Location = new System.Drawing.Point(6, 538);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(129, 23);
             this.btnCalculate.TabIndex = 38;
@@ -457,7 +457,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1141, 610);
+            this.ClientSize = new System.Drawing.Size(1141, 571);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.radioGroupParsingType);
             this.Controls.Add(this.txtAdjustedError);
